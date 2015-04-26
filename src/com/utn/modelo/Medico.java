@@ -3,14 +3,14 @@ import java.util.Scanner;
 
 public class Medico extends Profesion {
 	Scanner scanner = new Scanner(System.in);
-	private static String nom;
-	private static String apellido;
-	private static int dni;
-	private static int edad;
-	private static String sintomas;
-	private static String Tratamiento;
-	private static String Medicamentos;
-	private static String Reposo;
+	private  String nom;
+	private  String apellido;
+	private  int dni;
+	private  int edad;
+	private  String sintomas;
+	private String Tratamiento;
+	private  String Medicamentos;
+	private  String Reposo;
 	
 	
 	@Override
@@ -46,7 +46,7 @@ public class Medico extends Profesion {
 	Medicamentos = scanner.nextLine();
 }
 	public void recetoReposo10dias(){
-		System.out.println("¿El paciente deberá hacer reposo?");
+		System.out.println("Â¿El paciente deberÃ¡ hacer reposo?");
 	Reposo = scanner.nextLine();
 	}
 	public void planilla(){
@@ -59,7 +59,7 @@ public class Medico extends Profesion {
 				"\nSintomas: " + sintomas +
 				"\nTratamiento: " + Tratamiento +
 				"\nMedicamentos recetados: " + Medicamentos +
-				"\n¿Necesita Reposo?: " + Reposo +
+				"\nÂ¿Necesita Reposo?: " + Reposo +
 				"\n==============================================");
 		}
 	
